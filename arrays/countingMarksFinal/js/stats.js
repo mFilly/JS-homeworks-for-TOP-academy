@@ -6,28 +6,28 @@
  */
 export function addGrade(grades, grade) {
 	grades.push(grade)
-	return grades // your code
+	return grades 
 }
 
 /**
  * @param {array} grades
  */
 export function getNumberOfGrades(grades) {
-	return grades.length // your code
+	return grades.length 
 }
 
 /**
  * @param {array} grades
  */
 export function getFirstGrade(grades) {
-	return grades[0]// your code
+	return grades[0]
 }
 
 /**
  * @param {array} grades
  */
 export function getLastGrade(grades) {
-	return grades[grades.length - 1]// your code
+	return grades[grades.length - 1]
 }
 
 /**
@@ -36,7 +36,7 @@ export function getLastGrade(grades) {
 export function getSumOfGrades(grades) {
 	return grades.reduce(function (total, current) {
 		return total + current
-	}, 0)// your code
+	}, 0)
 }
 
 /**
@@ -47,12 +47,12 @@ export function getAverageGrade(grades) {
 		return total + current
 	}, 0)
 	return sum / grades.length  
-}        // your code
+}        
 
 
 /**
  * @param {array} grades
  */
 export function getRaisedGrades(grades) {
-	return grades.join(",")    // your code
+	return grades.join(",")    
 }
